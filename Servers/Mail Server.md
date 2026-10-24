@@ -1,0 +1,2 @@
+- This refers to the machine that hosting the *mail server software*.
+- Both the incoming mail server and outgoing mail server.

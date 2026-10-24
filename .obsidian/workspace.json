@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "0bd680c4ab27c29b",
+    "type": "split",
+    "children": [
+      {
+        "id": "693306e51065600f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f534953db82bff15",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "98874e19102924ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "aa6ac13d8fd52aec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f801a8e84830fdf7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0b3225247f7fd48d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "0daf0e07a7fd290f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5f7801e7f978d454",
+    "type": "split",
+    "children": [
+      {
+        "id": "199884954b3d594a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55d0945d61920bd2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "cca653a6a735bd45",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "42b0c48a551b5f02",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4c896d7433109644",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Untitled.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f801a8e84830fdf7",
+  "lastOpenFiles": [
+    "wf.canvas",
+    "w.canvas",
+    "Untitled.canvas",
+    "Untitled.base",
+    "Un-initialized Variable Behavior.md",
+    "Type attribute.md",
+    "Structure of Dotnet.md",
+    "Prompting techniques.md",
+    "Pasted image 20260603171142.png",
+    "Interface.md",
+    "Dotnet Architecture.md",
+    "Tags/Servers Info.md",
+    "Tags/Python.md",
+    "Tags/OS info.md",
+    "Tags/Java.md",
+    "Tags/C++.md",
+    "Tags",
+    "SQL/Query Execution Order.md",
+    "SQL/GroupBy clause.md",
+    "SQL",
+    "Servers/Webserver as Hardware & Software.md",
+    "Servers/Web Server.md",
+    "Servers/Servers.md",
+    "Servers/Request Forwarding.md",
+    "Servers/Mail Server.md",
+    "Servers/Database Server.md",
+    "Servers/Application Server.md",
+    "Servers/API Server.md",
+    "Servers",
+    "Screen/Resolution.md",
+    "Screen/Color Depth.md",
+    "Screen",
+    "Rendering/Types of rendering.md",
+    "Rendering",
+    "Python/Untitled.md",
+    "Python",
+    "Processor",
+    "Php",
+    "OS",
+    "Images/Pasted image 20260521102439.png",
+    "Images/Pasted image 20260504160006.png",
+    "Images/Pasted image 20260504155853.png",
+    "Images/Pasted image 20260428152042.png",
+    "Images/Pasted image 20260428151906.png",
+    "Pasted image 20260504152904.png",
+    "Pasted image 20260504152856.png"
+  ]
+}

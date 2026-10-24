@@ -1,0 +1,40 @@
+{
+	"nodes":[
+		{"id":"setup","type":"text","text":"SETUP (Master Data)\nDepartment\nDesignation\nBranch\nEmployment Type\nEmployee Grade\nHoliday List\nLeave Policy","x":400,"y":-1440,"width":300,"height":240},
+		{"id":"attendance","type":"text","text":"Attendance Flow\nEmployee Checkin\nShift Type\nShift Assignment\nAttendance\nAttendance Request","x":-160,"y":450,"width":300,"height":200},
+		{"id":"job_opening","type":"text","text":"Job Opening","x":450,"y":-1120,"width":200,"height":60},
+		{"id":"applicant","type":"text","text":"Job Applicant","x":450,"y":-1000,"width":200,"height":80},
+		{"id":"offer","type":"text","text":"Job Offer","x":450,"y":-760,"width":200,"height":80},
+		{"id":"interview","type":"text","text":"Interview","x":450,"y":-880,"width":200,"height":80},
+		{"id":"appointment","type":"text","text":"Appointment Letter","x":445,"y":-620,"width":210,"height":60},
+		{"id":"onboarding","type":"text","text":"Employee Onboarding\n→ Boarding Activity","x":425,"y":-520,"width":250,"height":100},
+		{"id":"performance","type":"text","text":"Performance Flow\nGoal\nKPI\nAppraisal\nFeedback","x":1160,"y":220,"width":250,"height":200},
+		{"id":"employee","type":"text","text":"EMPLOYEE (Core Entity)","x":655,"y":-230,"width":140,"height":100,"color":"2"},
+		{"id":"movement","type":"text","text":"Employee Changes\nPromotion\nTransfer","x":910,"y":-520,"width":250,"height":120},
+		{"id":"separation","type":"text","text":"Separation Flow\nEmployee Separation\nExit Interview\nFull & Final Settlement","x":1020,"y":-330,"width":240,"height":150},
+		{"id":"expense","type":"text","text":"Expense & Travel\nExpense Claim\nExpense Advance\nTravel Request\nTravel Itinerary","x":1240,"y":-80,"width":280,"height":200},
+		{"id":"payroll","type":"text","text":"Payroll Flow\nSalary Component\nSalary Structure\nAdditional Salary\nPayroll Entry\nSalary Slip","x":760,"y":450,"width":300,"height":200},
+		{"id":"leave","type":"text","text":"Leave Flow\nLeave Type\nLeave Policy Assignment\nLeave Allocation\nLeave Application\nLeave Period","x":280,"y":520,"width":300,"height":200}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"setup","fromSide":"bottom","toNode":"job_opening","toSide":"top"},
+		{"id":"e2","fromNode":"job_opening","fromSide":"bottom","toNode":"applicant","toSide":"top"},
+		{"id":"e3","fromNode":"applicant","fromSide":"bottom","toNode":"interview","toSide":"top"},
+		{"id":"e4","fromNode":"interview","fromSide":"bottom","toNode":"offer","toSide":"top"},
+		{"id":"e5","fromNode":"offer","fromSide":"bottom","toNode":"appointment","toSide":"top"},
+		{"id":"e6","fromNode":"appointment","fromSide":"bottom","toNode":"onboarding","toSide":"top"},
+		{"id":"e7","fromNode":"onboarding","fromSide":"bottom","toNode":"employee","toSide":"left"},
+		{"id":"e8","fromNode":"employee","fromSide":"bottom","toNode":"attendance","toSide":"top"},
+		{"id":"e9","fromNode":"employee","fromSide":"bottom","toNode":"leave","toSide":"top"},
+		{"id":"e10","fromNode":"employee","fromSide":"right","toNode":"payroll","toSide":"left"},
+		{"id":"e11","fromNode":"employee","fromSide":"right","toNode":"performance","toSide":"left"},
+		{"id":"e12","fromNode":"employee","fromSide":"right","toNode":"expense","toSide":"left"},
+		{"id":"e13","fromNode":"employee","fromSide":"top","toNode":"movement","toSide":"left"},
+		{"id":"e15","fromNode":"employee","fromSide":"right","toNode":"separation","toSide":"left"},
+		{"id":"e14","fromNode":"movement","fromSide":"left","toNode":"employee","toSide":"top"}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

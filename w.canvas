@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"recruitment","type":"text","text":"RECRUITMENT\n\nJob Opening\n→ Job Applicant\n→ Interview\n→ Job Offer\n→ Appointment Letter","x":0,"y":0,"width":300,"height":200},
+		{"id":"onboarding","type":"text","text":"ONBOARDING\n\nEmployee Onboarding\n→ Employee Boarding Activity\n→ Employee (Created)","x":400,"y":0,"width":300,"height":200},
+		{"id":"employee","type":"text","text":"EMPLOYEE CORE\n\nEmployee\n→ Promotion\n→ Transfer\n→ Separation","x":800,"y":0,"width":300,"height":200},
+		{"id":"performance","type":"text","text":"PERFORMANCE\n\nGoal\n→ KPI\n→ Appraisal\n→ Feedback","x":580,"y":350,"width":300,"height":200},
+		{"id":"expense","type":"text","text":"EXPENSE & TRAVEL\n\nTravel Request\n→ Travel Itinerary\n→ Expense Claim Advance\n→ Expense Claim","x":1050,"y":350,"width":300,"height":200},
+		{"id":"masterdata","type":"text","text":"SETUP (MASTER DATA)\n\nDepartment\nDesignation\nBranch\nEmployment Type\nEmployee Grade\nHoliday List\nLeave Policy","x":400,"y":-350,"width":300,"height":200},
+		{"id":"attendance","type":"text","text":"ATTENDANCE & TIME\n\nShift Type\n→ Shift Assignment\n→ Employee Checkin\n→ Attendance\n→ Attendance Request","x":1300,"y":-350,"width":300,"height":200},
+		{"id":"leave","type":"text","text":"LEAVE MANAGEMENT\n\nLeave Type\n→ Leave Policy Assignment\n→ Leave Allocation\n→ Leave Application\n→ Leave Period","x":1300,"y":-50,"width":300,"height":200},
+		{"id":"separation","type":"text","text":"SEPARATION\n\nEmployee Separation\n→ Exit Interview\n→ Full & Final Settlement","x":1450,"y":280,"width":300,"height":200},
+		{"id":"payroll","type":"text","text":"PAYROLL\n\nSalary Component\n→ Salary Structure\n→ Additional Salary\n→ Payroll Entry\n→ Salary Slip","x":1780,"y":-100,"width":300,"height":200}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"recruitment","fromSide":"right","toNode":"onboarding","toSide":"left"},
+		{"id":"e2","fromNode":"onboarding","fromSide":"right","toNode":"employee","toSide":"left"},
+		{"id":"e3","fromNode":"masterdata","fromSide":"right","toNode":"employee","toSide":"left"},
+		{"id":"e4","fromNode":"employee","fromSide":"right","toNode":"attendance","toSide":"left"},
+		{"id":"e5","fromNode":"employee","fromSide":"right","toNode":"leave","toSide":"left"},
+		{"id":"e6","fromNode":"attendance","fromSide":"right","toNode":"payroll","toSide":"left"},
+		{"id":"e7","fromNode":"leave","fromSide":"right","toNode":"payroll","toSide":"left"},
+		{"id":"e8","fromNode":"employee","fromSide":"bottom","toNode":"performance","toSide":"top"},
+		{"id":"e9","fromNode":"employee","fromSide":"bottom","toNode":"expense","toSide":"top"},
+		{"id":"e10","fromNode":"employee","fromSide":"right","toNode":"separation","toSide":"left"},
+		{"id":"e11","fromNode":"payroll","fromSide":"bottom","toNode":"separation","toSide":"top"}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{},
+		"startNode":"5bde8d36f67e0673"
+	}
+}

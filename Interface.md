@@ -1,0 +1,1 @@
+An interface in computer science refers to a boundary across which two independent systems meet and interact. It defines the methods by which different software components or systems communicate with each other. Interfaces provide a way for different pieces of software to work together without needing to know the specifics of each other's implementation.
